@@ -12,10 +12,10 @@ import br.com.senai.suelendosanjos.apllication.model.Despesas;
 
 public class FormBean {
 
-	@EJB
+	@EJB		//CÓDIGO QUE PREENCHE O OBJETIVO DA APLICAÇÃO
 	private DespesaBean despesaBean;
 
-	@Inject
+	@Inject		//PARA QUE RECURSO QUE CDI CONHECE
 	private FacesContext context;
 	
 	private UIComponent searchInputText;
