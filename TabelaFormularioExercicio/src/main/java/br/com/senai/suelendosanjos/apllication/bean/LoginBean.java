@@ -15,12 +15,13 @@ public class LoginBean implements Serializable{
 	private String senha;
 	
 	
-	@PostConstruct
+	@PostConstruct //ELE CRIA INSTÂNCIAS DOS BEANS OU DECLARADOS NA CONFIGURAÇÃO, PROCESSA AS ANOTAÇÕES, INJETA AS DEPENDÊNCIAS E ALGUMAS COISAS A MAIS.
+	
 	public void onCreate() {
 		System.out.println("Bean criado");
 	}
 	
-	@PreDestroy
+	@PreDestroy //CHAMA OS METODOS DE ANOTADOS
 	public void onDestroy() {
 		System.out.println("Bean será Destruído");
 	}
