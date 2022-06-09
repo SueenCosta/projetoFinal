@@ -61,7 +61,7 @@ public class FormBean {
 		return searchInputText;
 	}
 
-	public void setSearchInputText(UIComponent searchInputText) {
+	public void setSearchInputText(UIComponent searchInputText) { 	//UM COMPONENTE INTERATIVO PODE PARTCIPAR DA TABULAÇÃO.
 		this.searchInputText = searchInputText;
 	}
 
@@ -72,9 +72,6 @@ public class FormBean {
 	public void setDespesasId(Integer despesaId) {
 		this.despesaId = despesaId;
 	}
-	
-	
-	
 	
 
 }
